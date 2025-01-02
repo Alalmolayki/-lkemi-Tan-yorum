@@ -1,0 +1,172 @@
+import { CityInfo } from '../types/city';
+
+export const citiesData: Record<string, CityInfo> = {
+  istanbul: {
+    id: 'istanbul',
+    name: 'İstanbul',
+    population: '15.84 million (2021)',
+    economy: 'Finance, tourism, and industry',
+    agriculture: 'Limited urban agriculture',
+    livestock: 'Limited urban livestock',
+    sectors: ['Finance', 'Tourism', 'Technology', 'Trade'],
+    industry: 'Textiles, automotive, electronics',
+    tourism: 'Historical sites, cultural attractions',
+    imageUrl: 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=800&q=80'
+  },
+  ankara: {
+    id: 'ankara',
+    name: 'Ankara',
+    population: '5.6 million (2021)',
+    economy: 'Government services and industry',
+    agriculture: 'Grain production',
+    livestock: 'Modern livestock farming',
+    sectors: ['Government', 'Defense', 'Technology', 'Education'],
+    industry: 'Defense industry, construction',
+    tourism: 'Historical sites, government tourism',
+    imageUrl: 'https://images.unsplash.com/photo-1589030343991-69ea1433b941?auto=format&fit=crop&w=800&q=80'
+  },
+  izmir: {
+    id: 'izmir',
+    name: 'İzmir',
+    population: '4.4 million (2021)',
+    economy: 'Port trade and industry',
+    agriculture: 'Olive, grape production',
+    livestock: 'Modern farming practices',
+    sectors: ['Trade', 'Tourism', 'Agriculture', 'Industry'],
+    industry: 'Food processing, automotive',
+    tourism: 'Coastal tourism, historical sites',
+    imageUrl: 'https://images.unsplash.com/photo-1589561454226-796a8aa89b05?auto=format&fit=crop&w=800&q=80'
+  },
+  antalya: {
+    id: 'antalya',
+    name: 'Antalya',
+    population: '2.5 million (2021)',
+    economy: 'Tourism and agriculture',
+    agriculture: 'Citrus fruits, greenhouse farming',
+    livestock: 'Limited livestock farming',
+    sectors: ['Tourism', 'Agriculture', 'Services'],
+    industry: 'Food processing, tourism services',
+    tourism: 'Beach tourism, historical sites',
+    imageUrl: 'https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=800&q=80'
+  },
+  bursa: {
+    id: 'bursa',
+    name: 'Bursa',
+    population: '3.1 million (2021)',
+    economy: 'Industry and agriculture',
+    agriculture: 'Fruit production, olives',
+    livestock: 'Modern livestock farming',
+    sectors: ['Automotive', 'Textile', 'Agriculture'],
+    industry: 'Automotive manufacturing, textiles',
+    tourism: 'Historical sites, winter tourism',
+    imageUrl: 'https://images.unsplash.com/photo-1584466987264-253cb3d22ec4?auto=format&fit=crop&w=800&q=80'
+  },
+  adana: {
+    id: 'adana',
+    name: 'Adana',
+    population: '2.2 million (2021)',
+    economy: 'Agriculture and industry',
+    agriculture: 'Cotton, citrus fruits',
+    livestock: 'Modern livestock farming',
+    sectors: ['Agriculture', 'Textile', 'Food Industry'],
+    industry: 'Textile manufacturing, food processing',
+    tourism: 'Cultural tourism, gastronomy',
+    imageUrl: 'https://images.unsplash.com/photo-1584466987264-253cb3d22ec4?auto=format&fit=crop&w=800&q=80'
+  },
+  kocaeli: {
+    id: 'kocaeli',
+    name: 'Kocaeli',
+    population: '2 million (2021)',
+    economy: 'Heavy industry and manufacturing',
+    agriculture: 'Limited agriculture',
+    livestock: 'Limited livestock farming',
+    sectors: ['Automotive', 'Chemical', 'Technology'],
+    industry: 'Automotive, petrochemicals',
+    tourism: 'Industrial tourism, nature tourism',
+    imageUrl: 'https://images.unsplash.com/photo-1584466987264-253cb3d22ec4?auto=format&fit=crop&w=800&q=80'
+  },
+  erzurum: {
+    id: 'erzurum',
+    name: 'Erzurum',
+    population: '762,000 (2021)',
+    economy: 'Agriculture and winter tourism',
+    agriculture: 'Livestock farming, grain production',
+    livestock: 'Major cattle farming and dairy production',
+    sectors: ['Tourism', 'Agriculture', 'Education', 'Winter Sports'],
+    industry: 'Food processing, textile manufacturing',
+    tourism: 'Winter sports, historical sites, thermal springs',
+    imageUrl: 'https://images.unsplash.com/photo-1584466987264-253cb3d22ec4?auto=format&fit=crop&w=800&q=80'
+  },
+  kayseri: {
+    id: 'kayseri',
+    name: 'Kayseri',
+    population: '1.4 million (2021)',
+    economy: 'Industrial manufacturing and trade',
+    agriculture: 'Grain production, fruit orchards',
+    livestock: 'Modern livestock farming',
+    sectors: ['Industry', 'Trade', 'Tourism', 'Education'],
+    industry: 'Furniture manufacturing, textiles, food processing',
+    tourism: 'Historical sites, winter sports at Erciyes Mountain',
+    imageUrl: 'https://images.unsplash.com/photo-1595155694624-c8faee9a4f5f?auto=format&fit=crop&w=800&q=80'
+  },
+  sivas: {
+    id: 'sivas',
+    name: 'Sivas',
+    population: '640,000 (2021)',
+    economy: 'Agriculture and industry based economy',
+    agriculture: 'Grain production, sugar beet farming',
+    livestock: 'Significant livestock farming',
+    sectors: ['Agriculture', 'Industry', 'Education'],
+    industry: 'Iron-steel production, cement manufacturing',
+    tourism: 'Historical madrasas and thermal springs',
+    imageUrl: 'https://images.unsplash.com/photo-1584466987264-253cb3d22ec4?auto=format&fit=crop&w=800&q=80'
+  },
+  kahramanmaras: {
+    id: 'kahramanmaras',
+    name: 'Kahramanmaraş',
+    population: '1.15 million (2021)',
+    economy: 'Textile industry and agriculture',
+    agriculture: 'Cotton, red pepper, grain production',
+    livestock: 'Sheep and cattle farming',
+    sectors: ['Textile', 'Agriculture', 'Food Industry'],
+    industry: 'Textile manufacturing, food processing',
+    tourism: 'Historical sites, gastronomy tourism',
+    imageUrl: 'https://images.unsplash.com/photo-1596371294768-41d2b6c6c180?auto=format&fit=crop&w=800&q=80'
+  },
+  malatya: {
+    id: 'malatya',
+    name: 'Malatya',
+    population: '800,000 (2021)',
+    economy: 'Agriculture and food processing',
+    agriculture: 'Apricot production, fruit orchards',
+    livestock: 'Modern livestock farming',
+    sectors: ['Agriculture', 'Food Industry', 'Textile'],
+    industry: 'Food processing, textile manufacturing',
+    tourism: 'Historical sites, gastronomy',
+    imageUrl: 'https://images.unsplash.com/photo-1589830096103-e349bee7c9cc?auto=format&fit=crop&w=800&q=80'
+  },
+  konya: {
+    id: 'konya',
+    name: 'Konya',
+    population: '2.25 million (2021)',
+    economy: 'Agriculture and industry',
+    agriculture: 'Grain production, sugar beet farming',
+    livestock: 'Large-scale livestock farming',
+    sectors: ['Agriculture', 'Industry', 'Tourism'],
+    industry: 'Automotive parts, food processing',
+    tourism: 'Religious tourism, historical sites',
+    imageUrl: 'https://images.unsplash.com/photo-1584466987264-253cb3d22ec4?auto=format&fit=crop&w=800&q=80'
+  },
+  trabzon: {
+    id: 'trabzon',
+    name: 'Trabzon',
+    population: '810,000 (2021)',
+    economy: 'Trade and tourism',
+    agriculture: 'Tea and hazelnut production',
+    livestock: 'Small-scale livestock farming',
+    sectors: ['Tourism', 'Agriculture', 'Trade'],
+    industry: 'Food processing, shipping',
+    tourism: 'Natural attractions, historical sites',
+    imageUrl: 'https://images.unsplash.com/photo-1584466987264-253cb3d22ec4?auto=format&fit=crop&w=800&q=80'
+  }
+};
