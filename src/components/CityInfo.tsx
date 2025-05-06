@@ -23,32 +23,32 @@ export const CityInfo: React.FC<CityInfoProps> = ({ city }) => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Users className="w-5 h-5 text-blue-600" />
-              <span className="text-gray-700">Population: {city.population}</span>
+              <span className="text-gray-700">Nüfus: {city.population}</span>
             </div>
             
             <div className="flex items-center gap-2">
               <TrendingUp className="w-5 h-5 text-green-600" />
-              <span className="text-gray-700">Economy: {city.economy}</span>
+              <span className="text-gray-700">Ekonomi: {city.economy}</span>
             </div>
             
             <div className="flex items-center gap-2">
               <Wheat className="w-5 h-5 text-yellow-600" />
-              <span className="text-gray-700">Agriculture: {city.agriculture}</span>
+              <span className="text-gray-700">Tarım: {city.agriculture}</span>
             </div>
             
             <div className="flex items-center gap-2">
               <Beef className="w-5 h-5 text-brown-600" />
-              <span className="text-gray-700">Livestock: {city.livestock}</span>
+              <span className="text-gray-700">Hayvancılık: {city.livestock}</span>
             </div>
             
             <div className="flex items-center gap-2">
               <Factory className="w-5 h-5 text-gray-600" />
-              <span className="text-gray-700">Industry: {city.industry}</span>
+              <span className="text-gray-700">Endüstri: {city.industry}</span>
             </div>
             
             <div className="flex items-center gap-2">
               <Plane className="w-5 h-5 text-purple-600" />
-              <span className="text-gray-700">Tourism: {city.tourism}</span>
+              <span className="text-gray-700">Turizm: {city.tourism}</span>
             </div>
             
             <div className="flex items-center gap-2">

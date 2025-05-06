@@ -36,7 +36,7 @@ const teamMembers: TeamMember[] = [
     }
   },
   {
-    name: 'Musab Sabır',
+    name: 'Behlül Erol',
     role: 'PR ve İletişim',
     image: '',
     bio: '',
