@@ -1,5 +1,6 @@
 import React from 'react';
 import AlaImage from '/public/image/ala.jpg';
+import BehlulImage from '/public/image/behlul.jpg';
 import KenanImage from '/public/image/kenan_hoca.png';
 
 interface TeamMember {
@@ -38,7 +39,7 @@ const teamMembers: TeamMember[] = [
   {
     name: 'Behlül Erol',
     role: 'PR ve İletişim',
-    image: '',
+    image: BehlulImage,
     bio: '',
     social: {
       github: 'https://github.com',
